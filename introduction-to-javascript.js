@@ -144,13 +144,87 @@ console.log(i);
 */
 
 //While Loop
+/*
 var situation = true;
 var x = 0;
 while (situation) {
         console.log(x++)
     if (x>1000)
         break;
+}*/
+
+//
+
+//Do While Loop
+/*
+var k = 1;
+do {
+    console.log(k);
+    k++;
 }
+while (k<3)
+{
+
+}
+*/
+
+//Objects İn Javascript
+
+/*
+var human = {};
+human.age = 21;
+human.name = "Eren";
+console.log(human.name);
+*/
+
+/*
+var human = {
+    age: 21,
+    name: "Eren",
+    walk: function () {
+        return "walking...";
+    }
+}
+console.log(human);
+*/
+
+// Arrays In Javascript
+// Read All İndexes Of An Array Example
+/*
+var Arr = ['eren',21,true,0.5];
+var countArr = Arr.length;
+for (i = 0; i < countArr ; i++) {
+console.log(Arr[i]);
+}
+*/
+
+// Differences Between Objects And Arrays
+/*
+var myArray = Array();
+var myObject = {};
+myArray['name'] = 'eren';
+myObject['name'] = 'eren';
+myArray.surname = 'sertkaya';
+myObject.surname = 'sertkaya';
+
+console.log(myArray)
+console.log(myObject)
+ */
+*/
+ */
+
+//forEach Loop
+/*
+var Arr = ['eren',21,true,0.5];
+Arr.forEach(function (x) {
+    console.log(x);
+})
+*/
+
+
+
+
+
 
 
 
