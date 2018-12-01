@@ -60,6 +60,7 @@ rest
 
 //Arrow Functions
 //Classical Js Function
+/*
 var myFunction = function (number,number2) {
     return number+number2;
 }
@@ -68,3 +69,138 @@ console.log(myFunction(2,3));
 //ES6 Function
 const myFunctionEs6 = (number,number2) => number+number2;
 console.log(myFunctionEs6(3,3));
+*/
+
+//Promise Structure
+
+//Hell function instance with old js syntax
+
+/*
+var hell = function (number, callback) {
+    var result = number + 2;
+    callback(result);
+}
+
+hell(2, function (result) {
+    console.log(result);
+    hell(4, function (result) {
+        console.log(result);
+        hell(6, function (result) {
+            console.log(result);
+        })
+    })
+});*/
+
+//Same instance with promise structure which is feature of ec6
+
+/*
+const hell = (number) => {
+    return new Promise((resolve, reject) => {
+            if (number === 4)
+                resolve("everything is okey");
+            else
+                reject("there is a problem");
+        }
+    )
+}
+
+hell(4)
+    .then((data) => {
+        console.log(data);
+        return 1;
+    })
+    .then((data) => {
+        return console.log(data);
+    })
+*/
+
+/*
+
+const a = 4;
+const hellFunction = () => {
+    return new Promise((resolve, reject) => {
+        if (a === 4) {
+            let b = a+2;
+            console.log(b);
+            resolve(b);
+        }
+        else
+            reject(a);
+    })
+}
+
+hellFunction().then((data) => {
+    return data;
+}).then((x) => {
+    let y = x+2;
+    console.log(y);
+}).catch((z) => {
+    console.log(z);
+})
+*/
+let userId;
+const user = {id: 10, name: 'eren'};
+const friends = [{id: 11, name: 'samet'}, {id: 12, name: 'yasin'}];
+
+const getUser = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(user);
+        }, 1000);
+    });
+};
+
+const getFriends = (userId) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(friends);
+        }, 500)
+    });
+};
+
+
+/*
+
+//callback hell
+getUser().then((x) => {
+    userId = x.id;
+    getFriends(userId).then((y) => {
+        console.log(y);
+        console.log(x);
+    })
+});
+
+*/
+
+/*
+//Promise Chain Instance
+
+getUser()
+    .then((x) => {
+        return x.id;
+    })
+    .then((userId) => {
+        getFriends(userId)
+            .then((friends) => {
+                console.log(friends);
+            })
+    })
+*/
+//Promise Chain Instance 2
+
+getUser()
+    .then((x) => {
+        return getFriends(x.id);
+    })
+    .then((friends) => {
+        console.log(friends);
+    })
+
+
+
+
+
+
+
+
+
