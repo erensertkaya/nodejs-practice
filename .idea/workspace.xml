@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85effdf8-fd32-4c17-a1e3-e13017662156" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction-to-ecmascript6.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduction-to-ecmascript6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6-practice/async-await.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduction-to-ecmascript6.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="introduction-to-ecmascript6.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+      <file leaf-file-name="introduction-to-ecmascript6.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="async-await.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6-practice/async-await.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -43,6 +53,8 @@
         <option value="$PROJECT_DIR$/nodejs-practice.js" />
         <option value="$PROJECT_DIR$/introduction-to-javascript.js" />
         <option value="$PROJECT_DIR$/introduction-to-ecmascript6.js" />
+        <option value="$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js" />
+        <option value="$PROJECT_DIR$/es6-practice/async-await.js" />
       </list>
     </option>
   </component>
@@ -61,7 +73,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -91,6 +103,11 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="nodejs-practice" type="cbb8eebc:String" user="nodejs-practice" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="nodejs-practice" type="cbb8eebc:String" user="nodejs-practice" />
+              <item name="es6-practice" type="cbb8eebc:String" user="es6-practice" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,6 +123,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\nodejs-practice\es6-practice" />
       <recent name="C:\wamp64\www\nodejs-practice" />
     </key>
   </component>
@@ -144,12 +162,13 @@
       <workItem from="1543607169000" duration="18000" />
       <workItem from="1543607203831" duration="1255000" />
       <workItem from="1543611434450" duration="4329000" />
-      <workItem from="1543664575373" duration="10867000" />
+      <workItem from="1543664575373" duration="11007000" />
+      <workItem from="1543835645633" duration="1097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42064000" />
+    <option name="totallyTimeSpent" value="43301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -164,11 +183,10 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.21610738" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.21546596" />
       <window_info anchor="bottom" auto_hide="true" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50033045" side_tool="true" weight="0.32909605" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="3" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.5026042" side_tool="true" weight="0.21017845" />
@@ -179,6 +197,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="3" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -217,14 +236,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4312">
+          <caret line="196" column="6" lean-forward="true" selection-start-line="196" selection-start-column="6" selection-end-line="196" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
           <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
@@ -238,7 +264,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -252,7 +278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -266,7 +292,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -280,7 +306,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
@@ -326,10 +352,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/es6-practice/asd.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-practice/async-await.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
