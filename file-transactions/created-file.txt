@@ -1,0 +1,1 @@
+sorry letters deleted by writeFile methodthis file created by eren sertkaya via a node.js script

@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85effdf8-fd32-4c17-a1e3-e13017662156" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/es6-practice/async-await.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction-to-ecmascript6.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-transactions/file-create-write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-transactions/file-delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-transactions/file-reading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-transactions/instance.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-transactions/victim.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/create-http-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-using/package-using-instance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-practice/async-await.js" beforeDir="false" afterPath="$PROJECT_DIR$/pure-javascript-practice./es6-practice/async-await.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js" beforeDir="false" afterPath="$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduction-to-javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +25,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="introduction-to-ecmascript6.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
+    <leaf>
+      <file leaf-file-name="create-http-server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/http/create-http-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="async-await.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/es6-practice/async-await.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="44">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -41,6 +40,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>user</find>
+      <find>then</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -55,6 +55,17 @@
         <option value="$PROJECT_DIR$/introduction-to-ecmascript6.js" />
         <option value="$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js" />
         <option value="$PROJECT_DIR$/es6-practice/async-await.js" />
+        <option value="$PROJECT_DIR$/package-using/package-using-instance.js" />
+        <option value="$PROJECT_DIR$/events/event-emitter.js" />
+        <option value="$PROJECT_DIR$/events/even-temitter.js" />
+        <option value="$PROJECT_DIR$/events/emitter.js" />
+        <option value="$PROJECT_DIR$/file-transactions/instance.txt" />
+        <option value="$PROJECT_DIR$/file-transactions/instance.js" />
+        <option value="$PROJECT_DIR$/file-transactions/file-create-write.js" />
+        <option value="$PROJECT_DIR$/file-transactions/created-file.txt" />
+        <option value="$PROJECT_DIR$/file-transactions/victim.txt" />
+        <option value="$PROJECT_DIR$/file-transactions/file-delete.js" />
+        <option value="$PROJECT_DIR$/http/create-http-server.js" />
       </list>
     </option>
   </component>
@@ -70,10 +81,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/package-using/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package-using/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -81,21 +97,13 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
+      <showMembers Scope="false" />
+      <autoscrollToSource Scope="false" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="nodejs-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs-practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -106,7 +114,28 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="nodejs-practice" type="cbb8eebc:String" user="nodejs-practice" />
-              <item name="es6-practice" type="cbb8eebc:String" user="es6-practice" />
+              <item name="packages" type="cbb8eebc:String" user="packages" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nodejs-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="pure-javascript-practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,10 +148,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\nodejs-practice\pure-javascript" />
       <recent name="C:\wamp64\www\nodejs-practice\es6-practice" />
       <recent name="C:\wamp64\www\nodejs-practice" />
     </key>
@@ -163,12 +193,13 @@
       <workItem from="1543607203831" duration="1255000" />
       <workItem from="1543611434450" duration="4329000" />
       <workItem from="1543664575373" duration="11007000" />
-      <workItem from="1543835645633" duration="1097000" />
+      <workItem from="1543835645633" duration="6983000" />
+      <workItem from="1543863618774" duration="6600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43301000" />
+    <option name="totallyTimeSpent" value="55787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,7 +221,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.5026042" side_tool="true" weight="0.21017845" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49966952" visible="true" weight="0.3190883" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49966952" visible="true" weight="0.43162394" />
       <window_info id="Favorites" order="2" sideWeight="0.5010526" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,136 +267,106 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4312">
-          <caret line="196" column="6" lean-forward="true" selection-start-line="196" selection-start-column="6" selection-end-line="196" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4554">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5175">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5100">
-          <caret line="204" column="9" selection-start-line="204" selection-start-column="9" selection-end-line="204" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5200">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4525">
-          <caret line="181" column="24" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3775">
-          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
     <entry file="file://$PROJECT_DIR$/helloworld.js" />
-    <entry file="file://$PROJECT_DIR$/introduction-to-javascript.js">
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./introduction-to-javascript.js" />
+    <entry file="file://$PROJECT_DIR$/es6-practice/asd.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/introduction-to-ecmascript6.js" />
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice./es6-practice/async-await.js" />
+    <entry file="file://$PROJECT_DIR$/package-using/node_modules/slugify/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
+        <state relative-caret-position="88">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/asd.js">
+    <entry file="file://$PROJECT_DIR$/package-using/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-using/package-using-instance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/emitter.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/introduction-to-ecmascript6.js">
+    <entry file="file://$PROJECT_DIR$/events/emitter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+        <state relative-caret-position="198">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6-practice/async-await.js">
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice/introduction-to-javascript.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pure-javascript-practice/es6-practice/introduction-to-ecmascript6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="201">
+          <caret line="107" column="9" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-transactions/file-reading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-transactions/instance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-transactions/created-file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-transactions/file-create-write.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-transactions/victim.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-transactions/file-delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/create-http-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
         </state>
       </provider>
     </entry>
